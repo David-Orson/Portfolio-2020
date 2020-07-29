@@ -78,6 +78,8 @@ button:active {
 }
 
 .header {
+  position: fixed;
+  width: 100%;
   background-color: #151616;
   color: white;
   display: flex;
@@ -100,7 +102,7 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 120px 50px 50px 50px;
 }
 
 .projects {
@@ -110,6 +112,15 @@ button:active {
   justify-content: center;
   align-items: center;
   padding: 50px;
+}
+
+.contact {
+  background-color: #222629;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 50px 300px 50px;
 }
 
 .badge {
