@@ -5,7 +5,7 @@ const Header = () => {
     <div className="header">
       <a>Top</a>
       <a>Portfolio</a>
-      <a>Contact/Resume</a>
+      <a>Contact/CV</a>
     </div>
   );
 };

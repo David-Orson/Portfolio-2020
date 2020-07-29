@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../Assets/surf-secrets.png";
+import Badge from "./Badge";
 
 const Project = () => {
   return (
@@ -12,6 +13,13 @@ const Project = () => {
           <span>Project</span>
         </p>
         <h1>Surf Secrets</h1>
+        <Badge name="JavaScript" />
+        <Badge name="React" />
+        <Badge name="Redux" />
+        <Badge name="TypeScript" />
+        <Badge name="Firebase" />
+        <Badge name="CSS" />
+        <Badge name="Sass" />
         <p>
           <span>
             Lorem this and that and well yes and but maybe no but then when i
