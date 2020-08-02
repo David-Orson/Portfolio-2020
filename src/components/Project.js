@@ -4,7 +4,7 @@ import Badge from "./Badge";
 const Project = (props) => {
   return (
     <div className="section">
-      <div className="container">
+      <div className="container logo-container">
         <img src={props.image} />
       </div>
       <div className="container">

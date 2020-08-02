@@ -127,6 +127,12 @@ button:active {
   padding: 50px;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact {
   background-color: #222629;
   display: flex;

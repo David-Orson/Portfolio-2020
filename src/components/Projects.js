@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import surfSecrets from "../Assets/surf-secrets.png";
+import codeQuizzer from "../Assets/code-quizzer.png";
 
 const Projects = () => {
   const sSBadges = [
@@ -14,6 +15,8 @@ const Projects = () => {
     "CSS",
     "Sass",
   ];
+
+  const cQBadges = ["JavaScript", "React", "Semantic UI", "CSS", "Sass"];
 
   return (
     <div className="projects">
@@ -37,7 +40,16 @@ const Projects = () => {
           image={surfSecrets}
           badges={sSBadges}
         />
-        <Project />
+        <Project
+          title="Code Quizzer"
+          body="Lorem this and that and well yes and but maybe no but then when i
+            consider it longer i get to see that the best thing about that was
+            when it was back to that other time when we did this and that but
+            never took the time to consider that we can never go back to that
+            time."
+          image={codeQuizzer}
+          badges={cQBadges}
+        />
       </div>
     </div>
   );
