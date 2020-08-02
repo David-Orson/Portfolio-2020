@@ -6,7 +6,11 @@ const Project = (props) => {
   return (
     <div className="section">
       <div className="container logo-container">
-        <img src={props.image} />
+        {props.lessPadding ? (
+          <img src={props.image} className="ssPadding" />
+        ) : (
+          <img src={props.image} className="cqPadding" />
+        )}
       </div>
       <div className="container">
         <p>
@@ -27,7 +31,7 @@ const Project = (props) => {
             {codeText} Code
           </a>
         </div>
-        <div className="scroll">
+        <div className="scroll mobile-text">
           <p>
             <span>{props.body}</span>
           </p>

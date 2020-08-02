@@ -16,6 +16,26 @@ a {
   margin: 5px 10px;
   cursor: pointer;
   padding: 5px;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
 }
 
 h1 {
@@ -72,7 +92,7 @@ button {
   font-weight: 600;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: background 150ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -83,6 +103,15 @@ button:focus {
 }
 
 button:active {
+  transform: scale(0.97);
+}
+
+.button:hover,
+.button:focus {
+  background: #0053ba;
+}
+
+.button:active {
   transform: scale(0.97);
 }
 
@@ -178,4 +207,88 @@ button:active {
 .scroll {
   height: 200px;
   overflow: auto;
+}
+
+.ssPadding {
+  margin-left: -100px;
+}
+
+@media only screen and (max-width: 1610px) {
+  body {
+    background-color: white;
+  }
+
+  .section {
+    display: block;
+    padding: 30px;
+  }
+
+  .ssPadding {
+    padding: 0px;
+    margin: -100px;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  * {
+    text-align: center;
+  }
+
+  .container {
+    min-width: 150px;
+    max-width: 700px;
+    padding: 0px;
+  }
+
+  .section {
+    padding: 30px 0px;
+  }
+
+  .pfp-container {
+    height: 250px;
+    width: 250px;
+    min-width: 250px;
+    border-radius: 50%;
+    border: solid white 4px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .pfp {
+    display: block;
+
+    box-sizing: initial;
+
+    height: 450px;
+    width: 270px;
+    margin-left: -20px;
+    margin-top: -90px;
+  }
+
+  .hero {
+    background-color: #222629;
+    display: block;
+    padding: 100px 20px 0px 20px;
+  }
+
+  .ssPadding {
+    height: 200px;
+    margin: -30px 0px 10px 0px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+
+  .cqPadding {
+    margin: 10px 0px 30px 0px;
+  }
+
+  .mobile-text {
+    margin: 30px 0px;
+  }
+
+  .email {
+    font-size: 28px;
+  }
 }

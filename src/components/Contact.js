@@ -3,11 +3,11 @@ import cv from "../Assets/CV.png";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="cv" className="contact">
       <img src={cv} />
       <h1>07929 343576</h1>
       <h1>
-        <span>onlyorson@outlook.com</span>
+        <span className="email">onlyorson@outlook.com</span>
       </h1>
     </div>
   );

@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <div className="header">
-      <a>Top</a>
-      <a>Portfolio</a>
-      <a>Contact/CV</a>
+      <a href="#top">Top</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#cv">Contact/CV</a>
     </div>
   );
 };

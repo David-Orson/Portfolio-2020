@@ -19,7 +19,9 @@ const Hero = () => {
           LOVE.
         </p>
 
-        <button>See My Work</button>
+        <a className="button" href="#portfolio">
+          See My Work
+        </a>
       </div>
     </div>
   );
