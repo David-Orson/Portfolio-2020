@@ -115,10 +115,20 @@ button:active {
   transform: scale(0.97);
 }
 
-.section {
-  padding: 30px;
+.section-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  
+}
+
+.section {
+  
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  max-width: 100%;
 }
 
 .container {
@@ -209,8 +219,24 @@ button:active {
   overflow: auto;
 }
 
-.ssPadding {
-  margin-left: -100px;
+.surfsecrets-logo {
+  max-width: 310px;
+  margin: -20px 50px;
+}
+
+.lock-logo {
+  max-width: 310px;
+  margin: 20px 50px;
+}
+
+.omnigateway-logo {
+  max-width: 310px;
+  margin: 0px 50px;
+}
+
+.codequizzer-logo {
+  max-width: 310px;
+  margin: 0px 50px;
 }
 
 .cv {
