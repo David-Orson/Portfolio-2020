@@ -1,0 +1,13 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  background: rgb(212, 212, 212);
+  width: 100%;
+}
+
+.projects-main {
+  width: 98%;
+  background: white;
+  padding: 50px 100px;
+  text-align: center;
+}

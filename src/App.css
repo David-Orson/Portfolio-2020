@@ -131,15 +131,6 @@ button:active {
   padding: 30px;
 } */
 
-.projects {
-  background-color: #222629;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-}
-
 .logo-container {
   display: flex;
   justify-content: center;

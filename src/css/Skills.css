@@ -1,0 +1,27 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  background: rgb(212, 212, 212);
+  width: 100%;
+}
+
+.skills-main {
+  width: 98%;
+  background: rgb(231, 231, 231);
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 100px 0px;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
