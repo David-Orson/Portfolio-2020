@@ -18,6 +18,8 @@ const Hero = () => {
 
   return (
     <div className="hero">
+      <h1 className="hero-title">David Orson</h1>
+      <h2 className="hero-tagline">React/Javascript Developer</h2>
       <img src={starSky} className="hero-img" style={parralax} />
     </div>
   );
