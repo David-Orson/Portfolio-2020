@@ -4,7 +4,7 @@ import cv from "../Assets/CV.png";
 const Contact = () => {
   return (
     <div id="cv" className="contact">
-      <h1>My CV</h1>
+      {/* <h1>My CV</h1>
       <a className="cv" href="./CV.pdf" target="_blank">
         <img src={cv} className="cv-image" />
       </a>
@@ -12,7 +12,7 @@ const Contact = () => {
       <h1>07929 343576</h1>
       <h1>
         <span className="email">onlyorson@outlook.com</span>
-      </h1>
+      </h1> */}
     </div>
   );
 };
