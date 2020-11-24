@@ -8,8 +8,28 @@
 .cta-main {
   width: 98%;
   background: rgb(231, 231, 231);
-  padding: 50px 100px 200px 50px;
+  padding: 50px 100px 50px 100px;
   text-align: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.cta-title {
+  padding-bottom: 70px;
+}
+
+.cta-tagline-left {
+  padding-bottom: 70px;
+  width: 30%;
+  align-self: start;
+  margin-left: 300px;
+}
+
+.cta-tagline-right {
+  padding-bottom: 70px;
+  width: 30%;
+  align-self: end;
+  margin-right: 300px;
+}
