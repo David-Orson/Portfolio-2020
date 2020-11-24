@@ -1,0 +1,29 @@
+.cv {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background: rgb(212, 212, 212);
+  width: 100%;
+  
+}
+
+.cv-main {
+  width: 98%;
+  
+  background: url(../Assets//starsky.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+  overflow: hidden;
+}
+
+.cv-title {
+  color: white;
+}

@@ -1,18 +1,26 @@
 import React from "react";
-import cv from "../Assets/CV.png";
+
+import "../css/Contact.css"
 
 const Contact = () => {
   return (
     <div id="cv" className="contact">
-      {/* <h1>My CV</h1>
-      <a className="cv" href="./CV.pdf" target="_blank">
-        <img src={cv} className="cv-image" />
-      </a>
-
-      <h1>07929 343576</h1>
-      <h1>
-        <span className="email">onlyorson@outlook.com</span>
-      </h1> */}
+      <div className="contact-main">
+        <div className="container">
+          <h1 className="projects-title">Contact Me</h1>
+          <p className="projects-tagline">
+            <span>
+              onlyorson@outlook.com
+            </span>
+          </p>
+          <p className="projects-tagline">
+            <span>
+              07985422408
+            </span>
+          </p>
+        </div>
+      </div>
+      
     </div>
   );
 };

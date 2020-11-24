@@ -32,8 +32,8 @@ const Projects = () => {
     <div id="portfolio" className="projects">
       <div className="projects-main">
         <div className="container">
-          <h1 className="projects-title">Portfolio</h1>
-          <p>
+          <h1 className="projects-title">Projects</h1>
+          <p className="projects-tagline">
             <span>
               These are my favourite projects from this year, take a look around
               and check the code as you please
@@ -42,16 +42,16 @@ const Projects = () => {
         </div>
         <div className="projects-container">
           <div className="project-container">
-            <img src={ProjectLock} className="project" />
+            <img src={ProjectLock} className="project1" />
           </div>
           <div className="project-container">
-            <img src={ProjectLock} className="project"/>
+            <img src={ProjectLock} className="project2"/>
           </div>
           <div className="project-container">
-            <img src={ProjectLock} className="project"/>
+            <img src={ProjectLock} className="project1"/>
           </div>
           <div className="project-container">
-            <img src={ProjectLock} className="project"/>
+            <img src={ProjectLock} className="project2"/>
           </div>
         </div>
       </div>

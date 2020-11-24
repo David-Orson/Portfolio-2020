@@ -8,12 +8,16 @@
 .projects-main {
   width: 98%;
   background: white;
-  padding: 50px 100px;
+  padding: 50px 100px 200px 50px;
   text-align: center;
 }
 
 .projects-title {
   padding-bottom: 50px;
+}
+
+.projects-tagline {
+  padding-bottom: 70px;
 }
 
 .projects-container {
@@ -26,20 +30,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
-.project {
+.project2 {
+  background: linear-gradient(to bottom right, rgb(231, 231, 231), rgb(180, 180, 180));
   width: 512px;
   height: 288px;
-  /* border: 20px solid rgb(231, 231, 231); */
-  border-top: 18px solid rgb(231, 231, 231);
-  border-right: 32px solid rgb(231, 231, 231);
-  border-bottom: 18px solid rgb(231, 231, 231);
-  border-left: 32px solid rgb(231, 231, 231);
-  transition: all linear 0.2s;
+  padding: 20px;
+  transition: all linear 0.3s;
 }
 
-.project:hover {
-  border: 0px solid rgb(231, 231, 231);
+.project1 {
+  background: linear-gradient(to bottom right, rgb(65, 65, 65), rgb(43, 43, 43));
+  width: 512px;
+  height: 288px;
+  padding: 20px;
+  transition: all linear 0.3s;
+}
+
+.project1:hover {
+  padding: 12px;
+}
+
+.project2:hover {
+  padding: 12px;
 }
