@@ -8,12 +8,24 @@
 .projects-main {
   width: 98%;
   background: white;
-  padding: 50px 100px 200px 50px;
+  padding: 50px 100px 200px 100px;
   text-align: center;
+}
+
+.projects-layout {
+  display: flex;
+  justify-content: center;
 }
 
 .projects-title {
   padding-bottom: 50px;
+}
+
+.projects-tagline-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .projects-tagline {

@@ -31,27 +31,28 @@ const Projects = () => {
   return (
     <div id="portfolio" className="projects">
       <div className="projects-main">
-        <div className="container">
-          <h1 className="projects-title">Projects</h1>
+        <h1 className="projects-title">Projects</h1>
+        <div className="projects-layout">          
+          <div className="projects-tagline-container">
           <p className="projects-tagline">
             <span>
-              These are my favourite projects from this year, take a look around
-              and check the code as you please
+              I try to develop my skills, working with online resources like articles, udemy and youtube tutorials. I focus on developing the skills which will have a real world application and try to remove learning in technologies which spread my knowledge rather than refine it. These are my favourite projects from this year, feel free to take a look at the hosted demos or the code in the github repositories. 
             </span>
           </p>
-        </div>
-        <div className="projects-container">
-          <div className="project-container">
-            <img src={ProjectLock} className="project1" />
           </div>
-          <div className="project-container">
-            <img src={ProjectLock} className="project2"/>
-          </div>
-          <div className="project-container">
-            <img src={ProjectLock} className="project1"/>
-          </div>
-          <div className="project-container">
-            <img src={ProjectLock} className="project2"/>
+          <div className="projects-container">
+            <div className="project-container">
+              <img src={ProjectLock} className="project1"/>
+            </div>
+            <div className="project-container">
+              <img src={ProjectLock} className="project2"/>
+            </div>
+            <div className="project-container">
+              <img src={ProjectLock} className="project2"/>
+            </div>
+            <div className="project-container">
+              <img src={ProjectLock} className="project1"/>
+            </div>
           </div>
         </div>
       </div>
