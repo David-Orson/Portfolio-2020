@@ -6,6 +6,7 @@
   background-color: white;
   color: rgba(0, 0, 0, 0.87);
   font-family: "PT Sans Caption", sans-serif;
+  z-index: 1;
 }
 
 .header-container {

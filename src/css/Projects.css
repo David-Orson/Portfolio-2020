@@ -33,7 +33,7 @@
 }
 
 .project2 {
-  background: linear-gradient(to bottom right, rgb(231, 231, 231), rgb(180, 180, 180));
+  background: linear-gradient(to bottom right, rgb(240, 240, 240), rgb(180, 180, 180));
   width: 512px;
   height: 288px;
   padding: 20px;
@@ -41,7 +41,7 @@
 }
 
 .project1 {
-  background: linear-gradient(to bottom right, rgb(65, 65, 65), rgb(43, 43, 43));
+  background: linear-gradient(to bottom right, rgb(95, 95, 95), rgb(43, 43, 43));
   width: 512px;
   height: 288px;
   padding: 20px;
