@@ -5,6 +5,7 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import CV from "../components/CV";
 import Challenges from "../components/Challenges";
+import CTA from "../components/CTA";
 import Contact from "../components/Contact";
 
 
@@ -17,6 +18,7 @@ const Home = () => {
       <Projects />
       <CV />
       <Challenges />
+      <CTA />
       <Contact />
     </div>
   );

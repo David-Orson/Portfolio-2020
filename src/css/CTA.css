@@ -1,0 +1,15 @@
+.cta {
+  display: flex;
+  justify-content: center;
+  background: rgb(212, 212, 212);
+  width: 100%;
+}
+
+.cta-main {
+  width: 98%;
+  background: rgb(231, 231, 231);
+  padding: 50px 100px 200px 50px;
+  text-align: center;
+
+}
+
