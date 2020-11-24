@@ -7,17 +7,18 @@ const Contact = () => {
     <div id="cv" className="contact">
       <div className="contact-main">
         <div className="container">
-          <h1 className="projects-title">Contact Me</h1>
-          <p className="projects-tagline">
+          <h1 className="contact-title">Contact Me</h1>
+          <p>Ready to make software that your clients will love?</p>
+          <h1 className="contact-tagline">
             <span>
               onlyorson@outlook.com
             </span>
-          </p>
-          <p className="projects-tagline">
+          </h1>
+          <h1 className="contact-tagline">
             <span>
-              07985422408
+              07985 422408
             </span>
-          </p>
+          </h1>
         </div>
       </div>
       
