@@ -33,3 +33,44 @@
 .header-link {
   margin: 0px 20px;
 }
+
+@media only screen and (max-width: 1113px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .header-name {
+    justify-content: left;
+    padding-left: 20px;
+    width: auto;
+    padding-right: 20px;
+  }
+
+  .header-link {
+    margin: 0px 10px;
+  }
+  
+  .header-links {
+    min-width: 571px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .header-links {
+    display: none;
+  }
+
+  .header-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
