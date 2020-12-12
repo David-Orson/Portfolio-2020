@@ -25,6 +25,8 @@
 .pfp-container {
   height: 250px;
   width: 250px;
+  min-width: 250px;
+  margin: 0 auto;
 
   border-radius: 50%;
 
@@ -44,8 +46,29 @@
   max-width: 60%;
 }
 
-.pfp {
-  
+.pfp {  
   width: 250px;
   margin-top: -46px;
+}
+
+@media only screen and (max-width: 913px) {
+  .about-main {
+    padding: 30px;
+  }
+
+  .about-container{
+    display: block;
+  }
+
+  .about-info-container {
+    border: none;
+    margin: 0 auto;
+    padding-left: 0px;
+    max-width: 95%;
+    height: auto;
+  }
+
+  .pfp-container {
+    margin: 30px auto;
+  }
 }
