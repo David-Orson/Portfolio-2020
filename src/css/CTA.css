@@ -8,7 +8,7 @@
 .cta-main {
   width: 98%;
   background: rgb(231, 231, 231);
-  padding: 50px 100px 50px 100px;
+  padding: 50px 15vw 50px 15vw;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -22,14 +22,49 @@
 
 .cta-tagline-left {
   padding-bottom: 30px;
-  width: 30%;
+  width: 468px;
   align-self: start;
-  margin-left: 300px;
+  
 }
 
 .cta-tagline-right {
   padding-bottom: 30px;
-  width: 30%;
+  width: 468px;
   align-self: end;
-  margin-right: 300px;
+}
+
+@media only screen and (max-width: 1120px) {
+  .cta-tagline-left {
+    margin-top: 15px;
+    padding-bottom: 30px;
+    width: 350px;
+    align-self: start;
+  }
+  
+  .cta-tagline-right {
+    margin-top: 15px;
+    padding-bottom: 30px;
+    width: 350px;
+    align-self: end;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .cta-title {
+    padding-bottom: 20px;
+  }
+
+  .cta-tagline-left {
+    margin-top: 15px;
+    padding-bottom: 30px;
+    width: 350px;
+    align-self: center;
+  }
+  
+  .cta-tagline-right {
+    margin-top: 15px;
+    padding-bottom: 30px;
+    width: 350px;
+    align-self: center;
+  }
 }
