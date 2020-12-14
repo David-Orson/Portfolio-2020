@@ -44,18 +44,18 @@ const Projects = () => {
           </p>
           </div>
           <div className="projects-container">
-            <div className="project-container">
+            <a className="project-container" href="https://cssurfsecrets.com/" target="_blank">
               <img src={ProjectSurf} className="project1"/>
-            </div>
-            <div className="project-container">
+            </a>
+            <a className="project-container" href="https://www.thelockgymandfitness.com/" target="_blank">
               <img src={ProjectLock} className="project2"/>
-            </div>
-            <div className="project-container">
+            </a>
+            <a className="project-container" href="https://codequizzer.netlify.app/" target="_bank">
               <img src={ProjectQuiz} className="project2"/>
-            </div>
-            <div className="project-container">
+            </a>
+            <a className="project-container" href="https://orsondev.tech" target="_blank">
               <img src={ProjectOmni} className="project1"/>
-            </div>
+            </a>
           </div>
         </div>
       </div>
