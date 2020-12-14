@@ -9,7 +9,7 @@ const CV = () => {
     <div className="cv">
         <div className="cv-main">
             <h1 className="cv-title">Grab my CV</h1>
-            <button>CV</button>
+            <a className="button" href="https://davidorson.tech/CV.pdf" target="_blank">CV</a>
         </div>
     </div>
     )

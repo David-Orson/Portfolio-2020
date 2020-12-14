@@ -5,7 +5,10 @@ import LockLogo from "../Assets/LockLogo1.png";
 import Omnigateway from "../Assets/omnigateway_icon.png"
 import codeQuizzer from "../Assets/code-quizzer.png";
 
-import ProjectLock from "../Assets/ProjectLock.PNG"
+import ProjectLock from "../Assets/ProjectLock.PNG";
+import ProjectSurf from "../Assets/projectsurf.PNG";
+import ProjectQuiz from "../Assets/projectquiz.PNG";
+import ProjectOmni from "../Assets/projectomni.PNG";
 
 import "../css/Projects.css"
 
@@ -42,16 +45,16 @@ const Projects = () => {
           </div>
           <div className="projects-container">
             <div className="project-container">
-              <img src={ProjectLock} className="project1"/>
+              <img src={ProjectSurf} className="project1"/>
             </div>
             <div className="project-container">
               <img src={ProjectLock} className="project2"/>
             </div>
             <div className="project-container">
-              <img src={ProjectLock} className="project2"/>
+              <img src={ProjectQuiz} className="project2"/>
             </div>
             <div className="project-container">
-              <img src={ProjectLock} className="project1"/>
+              <img src={ProjectOmni} className="project1"/>
             </div>
           </div>
         </div>
