@@ -15,22 +15,30 @@ a {
   text-decoration: none;
 }
 
-a:link {
+.link:link {
   color: rgba(0, 0, 0, 0.7);
 }
 
 /* visited link */
-a:visited {
+.link:visited {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.link:visited {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+button:visited {
+  color: white;
+}
+
 /* mouse over link */
-a:hover {
+.link:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 
 /* selected link */
-a:active {
+.link:active {
   color: rgba(0, 0, 0, 0.7);
 }
 

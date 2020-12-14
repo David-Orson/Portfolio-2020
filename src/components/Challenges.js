@@ -4,7 +4,7 @@ import "../css/Challenges.css"
 
 const Challenges = () => {
   return (
-    <div className="challenges">
+    <div className="challenges" id="coding-challenges">
       <div className="challenges-main">
         <div className="container">
           <h1 className="projects-title">Challenges</h1>
